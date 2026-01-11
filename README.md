@@ -212,6 +212,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
+**Note:** Models listed in the supported providers table are examples only—model availability changes frequently. Refer to each provider’s documentation for the latest models and versions. Free tier or promotional credits may vary over time.
+
 - [OpenAI](https://openai.com/) for GPT models
 - [Anthropic](https://anthropic.com/) for Claude
 - [Google](https://ai.google.dev/) for Gemini

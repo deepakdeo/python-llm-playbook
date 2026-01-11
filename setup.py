@@ -6,12 +6,12 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setup(
     name="llm-playbook",
     version="0.1.0",
-    author="Your Name",
+    author="Deepak Deo",
     author_email="your.email@example.com",
     description="A unified Python interface for multiple LLM providers",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/python-llm-playbook",
+    url="https://github.com/deepakdeo/python-llm-playbook",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 3 - Alpha",

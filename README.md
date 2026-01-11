@@ -29,7 +29,7 @@ A unified, modular Python interface for working with multiple Large Language Mod
 ### From Source
 
 ```bash
-git clone https://github.com/yourusername/python-llm-playbook.git
+git clone https://github.com/deepakdeo/python-llm-playbook.git
 cd python-llm-playbook
 pip install -e .
 ```
@@ -195,12 +195,12 @@ Interactive tutorials are available in the `notebooks/` directory. Run them loca
 
 | Notebook | Description | Colab |
 |----------|-------------|-------|
-| `01_openai.ipynb` | OpenAI GPT models | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yourusername/python-llm-playbook/blob/main/notebooks/01_openai.ipynb) |
-| `02_anthropic.ipynb` | Anthropic Claude | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yourusername/python-llm-playbook/blob/main/notebooks/02_anthropic.ipynb) |
-| `03_gemini.ipynb` | Google Gemini | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yourusername/python-llm-playbook/blob/main/notebooks/03_gemini.ipynb) |
-| `04_groq.ipynb` | Groq (fast inference) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yourusername/python-llm-playbook/blob/main/notebooks/04_groq.ipynb) |
-| `05_ollama.ipynb` | Local LLMs | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yourusername/python-llm-playbook/blob/main/notebooks/05_ollama.ipynb) |
-| `06_comparison.ipynb` | Side-by-side comparison | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yourusername/python-llm-playbook/blob/main/notebooks/06_comparison.ipynb) |
+| `01_openai.ipynb` | OpenAI GPT models | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/deepakdeo/python-llm-playbook/blob/main/notebooks/01_openai.ipynb) |
+| `02_anthropic.ipynb` | Anthropic Claude | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/deepakdeo/python-llm-playbook/blob/main/notebooks/02_anthropic.ipynb) |
+| `03_gemini.ipynb` | Google Gemini | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/deepakdeo/python-llm-playbook/blob/main/notebooks/03_gemini.ipynb) |
+| `04_groq.ipynb` | Groq (fast inference) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/deepakdeo/python-llm-playbook/blob/main/notebooks/04_groq.ipynb) |
+| `05_ollama.ipynb` | Local LLMs | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/deepakdeo/python-llm-playbook/blob/main/notebooks/05_ollama.ipynb) |
+| `06_comparison.ipynb` | Side-by-side comparison | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/deepakdeo/python-llm-playbook/blob/main/notebooks/06_comparison.ipynb) |
 
 ## Contributing
 

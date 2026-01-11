@@ -16,7 +16,7 @@ This guide walks you through obtaining API keys from each supported LLM provider
 
 **Website:** https://platform.openai.com
 
-**Free Tier:** $5 credit for new accounts (expires after 3 months)
+**Free Tier:** Credits may apply (see pricing)
 
 ### Steps:
 
@@ -47,7 +47,7 @@ See [openai.com/pricing](https://openai.com/pricing)
 
 **Website:** https://console.anthropic.com
 
-**Free Tier:** $5 credit for new accounts
+**Free Tier:** Free credits for new users (see console)
 
 ### Steps:
 
@@ -140,16 +140,16 @@ See [groq.com/pricing](https://groq.com/pricing)
 
 ## Ollama (Local)
 
-**Website:** https://ollama.ai
+**Website:** https://ollama.com
 
 **Free:** Completely free (runs on your hardware)
 
 ### Steps:
 
 1. **Download and Install:**
-   - **macOS:** `brew install ollama` or download from [ollama.ai](https://ollama.ai)
-   - **Linux:** `curl -fsSL https://ollama.ai/install.sh | sh`
-   - **Windows:** Download installer from [ollama.ai](https://ollama.ai)
+   - **macOS:** `brew install ollama` or download from [ollama.com](https://ollama.com)
+   - **Linux:** `curl -fsSL https://ollama.com/install.sh | sh`
+   - **Windows:** Download installer from [ollama.com](https://ollama.com)
 
 2. **Pull a model:**
    ```bash

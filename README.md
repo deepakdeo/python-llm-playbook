@@ -1,7 +1,7 @@
 # Python LLM API Playbook
 
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/license/mit)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 A unified, modular Python interface for working with multiple Large Language Model (LLM) providers. This project provides consistent patterns for accessing OpenAI, Anthropic (Claude), Google Gemini, Groq, and local models via Ollama.
@@ -18,7 +18,7 @@ A unified, modular Python interface for working with multiple Large Language Mod
 
 | Provider | Models | Highlights |
 |----------|--------|------------|
-| **OpenAI** | GPT-4o, GPT-4, GPT-3.5 | Industry standard, function calling |
+| **OpenAI** | GPT-4o, GPT-4o-mini, GPT-4 | Industry standard, function calling |
 | **Anthropic** | Claude 4, Claude 3.5 Sonnet | Excellent reasoning, long context |
 | **Google Gemini** | Gemini 2.0, 1.5 Pro/Flash | Multimodal, generous free tier |
 | **Groq** | Llama, Mixtral, Gemma | Ultra-fast inference, free tier |
@@ -129,7 +129,7 @@ history = client.chat(
 ```python
 from llm_playbook import OllamaClient
 
-# Requires Ollama running locally: https://ollama.ai
+# Requires Ollama running locally: https://ollama.com
 client = OllamaClient(model="llama3.2")
 response = client.chat("What is Python?")
 print(response)
@@ -181,11 +181,11 @@ python-llm-playbook/
 
 | Provider | Sign Up | Free Tier |
 |----------|---------|-----------|
-| OpenAI | [platform.openai.com](https://platform.openai.com/signup) | $5 credit for new users |
-| Anthropic | [console.anthropic.com](https://console.anthropic.com/) | $5 credit for new users |
+| OpenAI | [platform.openai.com](https://platform.openai.com/signup) | Credits may apply (see pricing) |
+| Anthropic | [console.anthropic.com](https://console.anthropic.com/) | Free credits for new users (see console) |
 | Google Gemini | [aistudio.google.com](https://aistudio.google.com/) | Generous free tier |
 | Groq | [console.groq.com](https://console.groq.com/) | Free tier available |
-| Ollama | [ollama.ai](https://ollama.ai/) | Free (runs locally) |
+| Ollama | [ollama.com](https://ollama.com/) | Free (runs locally) |
 
 See [docs/getting_api_keys.md](docs/getting_api_keys.md) for detailed setup instructions.
 
@@ -216,4 +216,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Anthropic](https://anthropic.com/) for Claude
 - [Google](https://ai.google.dev/) for Gemini
 - [Groq](https://groq.com/) for ultra-fast inference
-- [Ollama](https://ollama.ai/) for local LLM support
+- [Ollama](https://ollama.com/) for local LLM support
